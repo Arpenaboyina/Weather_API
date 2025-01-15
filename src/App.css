@@ -36,3 +36,18 @@
     transform: rotate(360deg);
   }
 }
+
+/* Add responsive design for mobile devices */
+@media only screen and (max-width: 768px) {
+  .App-header {
+    font-size: calc(8px + 2vmin); /* Adjust font size for smaller screens */
+  }
+
+  .App-logo {
+    height: 30vmin; /* Reduce the logo size for mobile screens */
+  }
+
+  .App-link {
+    font-size: calc(8px + 1vmin); /* Adjust link size for better readability */
+  }
+}
