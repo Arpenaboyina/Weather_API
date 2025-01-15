@@ -3,8 +3,10 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  max-height: 40vmin;
+  max-width: 100%;
   pointer-events: none;
+  object-fit: contain;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -45,7 +47,7 @@
   }
 
   .App-logo {
-    height: 30vmin;
+    max-height: 30vmin;
     margin-bottom: 1rem;
   }
 
@@ -62,7 +64,7 @@
   }
 
   .App-logo {
-    height: 25vmin;
+    max-height: 25vmin;
   }
 
   .App-link {
