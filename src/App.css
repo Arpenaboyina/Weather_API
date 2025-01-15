@@ -22,6 +22,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  padding: 2rem;
 }
 
 .App-link {
@@ -37,17 +38,34 @@
   }
 }
 
-/* Add responsive design for mobile devices */
 @media only screen and (max-width: 768px) {
   .App-header {
-    font-size: calc(8px + 2vmin); /* Adjust font size for smaller screens */
+    font-size: calc(8px + 3vmin);
+    padding: 1rem;
   }
 
   .App-logo {
-    height: 30vmin; /* Reduce the logo size for mobile screens */
+    height: 30vmin;
+    margin-bottom: 1rem;
   }
 
   .App-link {
-    font-size: calc(8px + 1vmin); /* Adjust link size for better readability */
+    font-size: calc(10px + 2vmin);
+    margin-top: 1rem;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .App-header {
+    font-size: calc(6px + 2vmin);
+    padding: 0.5rem;
+  }
+
+  .App-logo {
+    height: 25vmin;
+  }
+
+  .App-link {
+    font-size: calc(6px + 1.5vmin);
   }
 }
